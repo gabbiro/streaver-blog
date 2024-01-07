@@ -17,7 +17,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${montserrat.className} antialiased m-auto grid min-h-screen grid-rows-[auto,1fr,auto]`}>
         <Navbar />
-        <main className="p-8">{children}</main>
+        <main>{children}</main>
         <footer className="text-center leading-[3rem] opacity-70">
           © {new Date().getFullYear()} StreaverBlog
         </footer>
